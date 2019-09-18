@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
 			return;
 		}
 
-		vscode.window.showQuickPick(contexts, {canPickMany: false}).then((choice) => {
+		vscode.window.showQuickPick(contexts, {canPickMany: false, placeHolder: 'Select your Kubernetes context'}).then((choice) => {
 			if (choice) {
 				const context = choice.split('/')[0];
 				updateContext(context).then(()=>{

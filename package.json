@@ -1,6 +1,6 @@
 {
 	"name": "kubernetes-context",
-	"publisher": "okteto",
+	"publisher": "Okteto",
 	"displayName": "Kubernetes Context",
 	"description": "Manage your Kubernetes context from VS Code",
 	"version": "0.0.1",
