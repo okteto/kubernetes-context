@@ -2,7 +2,7 @@ name: publish-marketplace
 on: 
   push:
     tags:
-      - refs/tags/.*\..*\..*
+      - v.*
 jobs:
   build:
     runs-on: ubuntu-latest
