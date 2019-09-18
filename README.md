@@ -5,6 +5,7 @@ This extension allows you to manage your Kubernetes context directly from VS Cod
 1. Displaying your current Kubernetes context in VS Code's status bar
 1. Switch your current context by clicking on the status bar and selecting a new one. 
 
+![demo gif](media/demo.gif)
 
 ## Requirement
 
