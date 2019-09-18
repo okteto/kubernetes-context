@@ -1,0 +1,57 @@
+{
+	"name": "kubernetes-context",
+	"displayName": "Kubernetes Context",
+	"description": "Manage your Kubernetes context from VS Code",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"kubernetes"
+	],
+	"icon": "media/icon.png",
+	"author": {
+		"name": "rberrelleza"
+	},
+	"homepage": "https://github.com/okteto/kubernetes-context",
+	"bugs": {
+		"url": "https://github.com/okteto/kubernetes-context/issues",
+		"email": "hello@okteto.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/okteto/kubernetes-context.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.38.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.0.2"
+	},
+	"dependencies": {
+		"@kubernetes/client-node": "^0.10.2",
+		"@types/user-home": "^2.0.0",
+		"js-yaml": "^3.13.1",
+		"user-home": "^2.0.0"
+	}
+}
