@@ -3,7 +3,7 @@
 	"publisher": "Okteto",
 	"displayName": "Kubernetes Context",
 	"description": "Manage your Kubernetes context from VS Code",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.38.0"
 	},

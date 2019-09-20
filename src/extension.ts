@@ -42,7 +42,7 @@ function refreshContext(status: vscode.StatusBarItem) {
 			return;
 		} 
 
-		status.text = getText(ktx.name.substring(0, 20), ktx.name.substring(0, 20));
+		status.text = getText(ktx.name.substring(0, 20), ktx.namespace.substring(0, 20));
 		status.tooltip = getText(ktx.name, ktx.namespace);
 		status.show();
 }
